@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.App {
+  padding: 5px;
+  // background: linear-gradient(90deg, rgba(148, 66, 255, 0.5), rgba(72, 181, 253, 0.507))
+}
+.Margin-div {
+  margin: 0 20%;
+  @media only screen and(max-width: 777px){
+    margin: 0 20px;
+  }
+  @media only screen and(max-width: 500px){
+    margin: 0 7px;
+  }
+}
+.Night-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0px 0;
+  padding: 5px 0px;
+}
+h4, h5 {
+  color: #fff;
+}
+p {
+  padding: 3px 0;
+  margin: 0;
+  color: #fff;
+}
+a {
+  color: #555;
+  text-decoration: none;
+}
+a:visited {
+  color: #555;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: block;
+  margin: 0;
+  padding: 5px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  font-size: 0.8em;
+}
+.header a {
+  padding-right: 15px;
+}
+.align-center{
+  text-align: center;
+}
+.cookie-policy {
+  border: 1px solid #555;
+  background-color: #555;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0 auto;
+  position: fixed;
+  // width: 60%;
+  bottom: 3px;
+  left: 20%;
+  right: 20%;
+  cursor: pointer;
+  @media only screen and(max-width: 777px){
+    left: 20px;
+    right: 20px;
+  }
+}
+.Margin-bottom-100 {
+  margin-bottom: 100px;
+}
+.Padding-bottom-100 {
+  padding-bottom: 100px;
+}
+
+.fade-in {
+  animation: FADEIN 1s linear;
+}
+
+@keyframes FADEIN {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

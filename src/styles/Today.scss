@@ -1,0 +1,95 @@
+.Weather-today-outer {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    // border: 1px solid #122bd8;
+    border-radius: 5px;
+    box-shadow: #333 4px 4px 6px;
+    text-align: center;
+    background: linear-gradient(30deg, #4ab, rgb(155, 81, 240));
+    font-size: 1.2em;
+    div {
+        padding: 0 10px;
+        
+    }
+    div > svg{
+        background: linear-gradient(30deg, #4ab, rgb(155, 81, 240));
+        border-radius: 50%;
+    }
+    
+    @media only screen and(max-width: 550px){
+        div {
+            padding: 2px;
+        }
+    }
+}
+
+.Weather-today-pie-outer {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0px auto;
+    div{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#Weather-today-pie-value {
+    position: relative;
+
+    border-radius: 50%;
+    padding: 0px;
+    margin: 0;
+    top: 89px;
+    left: 175px;
+    z-index: 100;
+    color: #000;
+    height: min-content;
+    text-align: center;
+}
+.Weather-today-other {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    background: linear-gradient(30deg, #4ab, rgb(155, 81, 240));
+    border-radius: 5px;
+    box-shadow: #333 4px 4px 6px;
+    p {
+        margin: auto;
+        padding: 0 10px;
+        
+    }
+}
+.Weather-today-circadian {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    p{
+        padding: 0 10px;
+        margin: 20px 0;
+        
+    }
+}
+
+div.Weather-today-pie-outer div svg{
+    background: linear-gradient(30deg, #4ab, rgb(155, 81, 240));
+    border-radius: 50%;
+    box-shadow: #333 4px 4px 6px;
+}
+div.Weather-today-circadian:nth-child(9) > div:nth-child(1) > svg:nth-child(1){
+    background: linear-gradient(30deg, #4ab, rgb(155, 81, 240));
+    border-radius: 50%;
+    box-shadow: #333 4px 4px 6px;
+}
+.sunrise-sunset {
+    background: linear-gradient(30deg, #4ab, rgb(155, 81, 240));
+    border-radius: 5px;
+    width: min-content;
+    margin: 10px auto;
+    box-shadow: #333 4px 4px 6px;
+}

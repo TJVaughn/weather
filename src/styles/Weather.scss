@@ -1,0 +1,50 @@
+.Weather-Header {
+    margin: 0 auto 10px auto;
+    background: linear-gradient(30deg, #4ab, rgb(155, 81, 240));
+    border-radius: 5px;
+    padding: 5px;
+    width: max-content;
+    box-shadow: #333 4px 4px 6px;
+    color: #fff;
+}
+#Get-weather{
+    color: #fff;
+    background: repeating-linear-gradient(45deg, #4ab, rgb(155, 81, 240) 2%);
+}
+.Weather-location{
+    font-size: 1.1em;
+    margin: 10px 5px;
+    background: linear-gradient(30deg, #4ab, rgb(155, 81, 240));
+    border-radius: 5px;
+    padding: 5px;
+    width: max-content;
+    box-shadow: #333 4px 4px 6px;
+    @media only screen and(max-width: 765px){
+        margin: 10px auto;
+    }
+}
+.Alert-button{
+    font-size: 1.2em;
+    background-color: rgb(151, 2, 2);
+    color: #fff;
+    padding: 10px;
+    margin: 5px auto;
+    display: block;
+    width: 70px;
+    cursor: pointer;
+    text-align: center;
+}
+.Alert-content {
+    background: linear-gradient(30deg, #4ab, rgb(155, 81, 240));
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: #333 4px 4px 6px;
+}
+.sub-item-desc {
+    font-size: 0.8em;
+}
+.Loading {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 15px;
+}
